@@ -34,3 +34,7 @@ int main() {
     return 0;
 
 }
+
+//declare variables
+// set a var for avgCount and totalGrades to compute the avg
+// use a while loop to keep inputting grafes
