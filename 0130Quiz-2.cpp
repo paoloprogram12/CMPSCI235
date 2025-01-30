@@ -42,4 +42,5 @@ double findMax(double numOne, double numTwo, double numThree) {
     }
 
     return maxNum;
+    
 }
