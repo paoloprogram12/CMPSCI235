@@ -17,8 +17,23 @@ using namespace std;
 
 int main() {
 
-    double grade[0];
+    const int SIZE = 100;
+    double grades[SIZE];
+    double grade;
+    int count = 0;
+    double sum = 0;
 
-    return 0;
+    cout << "Enter a grade: " << endl;
+
+    while (true) {
+        if (grade < 0) {
+            break;
+        }
+        else {
+            grades[count] = grade;
+            count++;
+            sum += grade;
+        }
+    }
 
 }
