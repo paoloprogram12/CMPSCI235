@@ -11,6 +11,7 @@
 
 
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 double heron(double, double, double);
